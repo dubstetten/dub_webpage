@@ -1,112 +1,71 @@
 <script>
-  import OpenMap from "../map/open-map.svelte";
-  import Picture from "../elements/picture.svelte";
-  import img1 from "$lib/assets/img/schild.jpg?width=320;480;640;768&format=webp;avif;jpg";
-  import img2 from "$lib/assets/img/dub_2.jpg?width=320;480;640;768&format=webp;avif;jpg";
+    import OpenMap from '../map/open-map.svelte';
+    import Picture from '../elements/picture.svelte';
+    import img1 from '$lib/assets/img/schild.jpg?width=320;480;640;768&format=webp;avif;jpg';
+    import img2 from '$lib/assets/img/dub_2.jpg?width=320;480;640;768&format=webp;avif;jpg';
 </script>
 
 <section id="about">
-  <h3 class="title">Info</h3>
-  <h4>Hardfacts</h4>
-  <ul>
-    <li>Open Air Hof Stage</li>
-    <li>Open Air Soundsystem Stage</li>
-    <li>Workshops</li>
-    <li>Holzofenpizza</li>
-    <li>Kinderprogramm</li>
-  </ul>
-  <br />
-  <Picture src={img1} alt="Background Image" />
+    <h3 class="title">Info</h3>
+    <h4>Hardfacts</h4>
+    <ul>
+        <li>Open Air Hof Stage</li>
+        <li>Open Air Soundsystem Stage</li>
+        <li>Workshops</li>
+        <li>Holzofenpizza</li>
+        <li>Kinderprogramm</li>
+    </ul>
+    <br />
+    <Picture src={img1} alt="Background Image" />
 
-  <h4 class="title">Good to know?</h4>
-  <ul>
-    <li>
-      Respect the nature: Hinterlasse keinen Müll, Zigaretten gehören in den
-      Aschenbecher
-    </li>
+    <h4 class="title">Good to know?</h4>
+    <ul>
+        <li>Respect the nature: Hinterlasse keinen Müll, Zigaretten gehören in den Aschenbecher</li>
 
-    <li>
-      Erlebe eine erfrischende Dusche auf unserem Festival und kühlt euch für
-      weitere Abenteuer ab.
-    </li>
-    <li>
-      Sowohl Lagerfeuer am Campingplatz als auch das Rauchen in Waldrandnähe ist
-      untersagt!
-    </li>
-    <li>
-      Das Aufstellen von eigenen Musikanlagen am Campingplatz ist nicht erlaubt.
-    </li>
-    <li>
-      Bitte erkundige dich beim Check-in, welches Campinggebiet zu deinen
-      Bedürfnissen passt.
-    </li>
-    <li>
-      Denk daran, dass Kinder schlafen könnten, also verhalte dich nachts
-      möglichst ruhig am Campingplatz.
-    </li>
-    <li>
-      Bedenke, dass am Festivalgelände ein landwirtschaftlicher Betrieb ansässig
-      ist, darum bitten wir dich, abgesperrte private Flächen zu respektieren.
-    </li>
-    <li>Es gibt einen Teich im Ort, den man zu Fuß erreichen kann.</li>
+        <li>Erlebe eine erfrischende Dusche auf unserem Festival und kühlt euch für weitere Abenteuer ab.</li>
+        <li>Sowohl Lagerfeuer am Campingplatz als auch das Rauchen in Waldrandnähe ist untersagt!</li>
+        <li>Das Aufstellen von eigenen Musikanlagen am Campingplatz ist nicht erlaubt.</li>
+        <li>Bitte erkundige dich beim Check-in, welches Campinggebiet zu deinen Bedürfnissen passt.</li>
+        <li>Denk daran, dass Kinder schlafen könnten, also verhalte dich nachts möglichst ruhig am Campingplatz.</li>
+        <li>Bedenke, dass am Festivalgelände ein landwirtschaftlicher Betrieb ansässig ist, darum bitten wir dich, abgesperrte private Flächen zu respektieren.</li>
+        <li>Es gibt einen Teich im Ort, den man zu Fuß erreichen kann.</li>
 
-    <li>
-      Hunde bitte an die Leine!
-      <br />
-      Bitte beachte, dass sich andere Menschen durch freilaufende Hunde gestört oder
-      bedroht fühlen können, daher den Hund bitte am Festivalgelände an der Leine
-      halten.
-      <br />
-      Wenn möglich, lass dein liebstes Pelzknäuel zuhause.
-    </li>
-    <li>
-      Verzichte auf Fotos am Festivalgelände!
-      <br />
-      Fotos sind immer eine schöne Erinnerung, aber bedenke bitte, dass es Menschen
-      gibt, die sich nicht gerne in öffentlichen Netzwerken wiederfinden wollen.
-      Wir bitten dich daher, Rücksicht darauf zu nehmen und die Zeit am Festival
-      bestenfalls ohne Handy zu genießen.
-    </li>
-    <li>
-      Denk daran, dass es in der Region, wo das Event stattfindet, nur Empfang
-      für A1 Kunden gibt. Dies ist auch bei der Navigation zu bedenken.
-    </li>
-    <li>
-      Jeder ist willkommen! Lade deine liebsten Freunde ein, um mit uns ein
-      bezauberndes Wochenende gefüllt mit Musik, Spiel und Genuss zu verbringen.
-    </li>
-  </ul>
-  <br />
-  <Picture src={img2} alt="Background Image" />
-  <p>
-    Das Dubstetten Festival wird von dem gemeinnützigen Verein Bele organisiert,
-    der Verein dient der Förderung und Bewusstseinsbildung für ein glückliches
-    Leben. Wir freuen uns auf ein schönes Festival mit euch.
-  </p>
-  <h4 class="title">
-    Du bist interessiert? <br /> Dann sicher dir ein Ticket für das Dubstetten Festival
-    am 21. & 22. Juli 2023.
-  </h4>
-  <OpenMap />
+        <li>
+            Hunde bitte an die Leine!
+            <br />
+            Bitte beachte, dass sich andere Menschen durch freilaufende Hunde gestört oder bedroht fühlen können, daher den Hund bitte am Festivalgelände an der Leine halten.
+            <br />
+            Wenn möglich, lass dein liebstes Pelzknäuel zuhause.
+        </li>
+        <li>
+            Verzichte auf Fotos am Festivalgelände!
+            <br />
+            Fotos sind immer eine schöne Erinnerung, aber bedenke bitte, dass es Menschen gibt, die sich nicht gerne in öffentlichen Netzwerken wiederfinden wollen. Wir bitten dich daher, Rücksicht darauf zu nehmen und die Zeit am Festival bestenfalls ohne Handy zu genießen.
+        </li>
+        <li>Denk daran, dass es in der Region, wo das Event stattfindet, nur Empfang für A1 Kunden gibt. Dies ist auch bei der Navigation zu bedenken.</li>
+        <li>Jeder ist willkommen! Lade deine liebsten Freunde ein, um mit uns ein bezauberndes Wochenende gefüllt mit Musik, Spiel und Genuss zu verbringen.</li>
+    </ul>
+    <br />
+    <Picture src={img2} alt="Background Image" />
+    <p>Das Dubstetten Festival wird von dem gemeinnützigen Verein Bele organisiert, der Verein dient der Förderung und Bewusstseinsbildung für ein glückliches Leben. Wir freuen uns auf ein schönes Festival mit euch.</p>
+    <h4 class="title">
+        Du bist interessiert? <br /> Dann sicher dir ein Ticket für das Dubstetten Festival am 21. & 22. Juli 2023.
+    </h4>
+    <OpenMap />
 </section>
 
 <style>
-  p,
-  ul {
-    font: 20px dosis;
-    padding: 10px;
-  }
-  li {
-    padding-top: 10px;
-  }
+    li {
+        padding-top: 10px;
+    }
 
-  h4 {
-    font: 28px own;
-    text-align: center;
-  }
+    h4 {
+        font: 28px own;
+        text-align: center;
+    }
 
-  ul {
-    list-style: none;
-    text-align: center;
-  }
+    ul {
+        list-style: none;
+        text-align: justify;
+    }
 </style>

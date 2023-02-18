@@ -46,7 +46,7 @@
     Vertretungsberechtigt: Maria Buchegger<br />
     E-Mail-Adresse: verein-bele@posteo.org<br /><br />
 
-    <b>EU-Streitschlichtung</b><br />
+    <strong>EU-Streitschlichtung</strong><br />
     Gemäß Verordnung über Online-Streitbeilegung in Verbraucherangelegenheiten (ODR-Verordnung)
     möchten wir Sie über die Online-Streitbeilegungsplattform (OS-Plattform) informieren.<br
     />

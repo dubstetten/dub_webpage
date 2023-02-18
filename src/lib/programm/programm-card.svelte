@@ -9,9 +9,7 @@
     <div class="startsAt">{programItem.startsAt}</div>
   {/if}
   {#if programItem.title || programItem.description || programItem.thumbnail}
-    <div class="programm-item">
-      <ProgramCardContent {programItem} />
-    </div>
+    <ProgramCardContent {programItem} />
   {/if}
 </div>
 
@@ -35,13 +33,7 @@
     content: "";
     width: 1rem;
     bottom: 0;
-    background: rgb(125, 125, 125);
-    background: linear-gradient(
-      90deg,
-      rgba(125, 125, 125, 1) 0%,
-      rgba(198, 198, 198, 1) 100%
-    );
-    opacity: 0.25;
+    background: #8f2d56;
   }
   .programm-item-wrapper:last-child::before {
     display: none;
@@ -50,26 +42,13 @@
     font-size: 1.5rem;
     font-family: "own";
     color: white;
-    background: linear-gradient(-25deg, #4b6cb7 0%, #182848 100%);
+    background: linear-gradient(-25deg, #0f4c5c 0%, #0f4c5c 100%);
+    border: solid 4px #b6c9cd;
+    border-top: none;
     padding: 1rem 2rem;
     max-width: 75%;
     margin-bottom: -3.5rem;
     z-index: 2;
     border-radius: 2rem;
-  }
-  .programm-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ff9001;
-    background-image: linear-gradient(132deg, #fff557db 0%, #e09c31ab 100%);
-
-    margin: 1rem 1rem;
-    overflow: hidden;
-    box-shadow: rgb(0, 0, 0, 0.1) 0.5rem 0 1rem;
-    width: 100%;
-    border-radius: 1rem;
-    position: relative;
   }
 </style>

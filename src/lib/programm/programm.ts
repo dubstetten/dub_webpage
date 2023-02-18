@@ -16,8 +16,7 @@ export const programm: ProgrammItem[] = [
   {
     startsAt: "Now",
     title: "Early Dub Tickets",
-    description:
-      "Sicher dir dein Ticket bei Eventbrite.",
+    description: "Sicher dir dein Ticket bei Eventbrite.",
   },
   {
     title: "Great Dub Opening 2023",
@@ -45,7 +44,8 @@ export const programm: ProgrammItem[] = [
   },
   {
     title: "Lion`s Den",
-    description: "Lion’s Den is a label, a sound system, a studio and a production and promotion force from Berlin, Germany.",
+    description:
+      "Lion’s Den is a label, a sound system, a studio and a production and promotion force from Berlin, Germany.",
     startsAt: "Sa. 22. July 2023 - Mitternacht",
     slug: "lions-den",
     thumbnail: lionsDen,
@@ -79,7 +79,8 @@ export const programm: ProgrammItem[] = [
   },
   {
     title: "Wicked and Bonny",
-    description: "Sometimes Wicked - sometimes Bonny! Founded in 2015 - based in a Studio in Silandro, Bolzano.",
+    description:
+      "Sometimes Wicked - sometimes Bonny! Founded in 2015 - based in a Studio in Silandro, Bolzano.",
     startsAt: "Fr. 21. July 2023 - Mitternacht",
     slug: "wicked-bonny",
     thumbnail: wickedAndBonny,

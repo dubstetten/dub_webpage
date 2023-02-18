@@ -74,7 +74,7 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    background-color: #615a51b1;
+    background-color: #8f2d56;
     z-index: 100;
     padding: 2.2rem 1rem;
   }

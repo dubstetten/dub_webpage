@@ -26,7 +26,7 @@
 <style>
   picture {
     width: 100%;
-    max-width: 768px;
+    max-width: 480px;
     height: 100%;
     display: block;
   }
@@ -37,5 +37,7 @@
     object-position: center;
     box-sizing: border-box;
     display: block;
+    border-radius: 2rem;
+    margin: 0rem 0;
   }
 </style>

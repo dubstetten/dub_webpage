@@ -63,6 +63,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 5px;
   }
 
   nav {
@@ -74,7 +75,9 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    background-color: #8f2d56;
+    background-color: #9c2355;
+    /* background-color: #a42b5eaf; */
+
     z-index: 100;
     padding: 2.2rem 1rem;
   }

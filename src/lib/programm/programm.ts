@@ -24,7 +24,8 @@ export const programm: ProgrammItem[] = [
   },
   {
     title: "Danubian Dub",
-    description: "Danubian Dub dubs your Brain out",
+    description:
+      "Soundsystem, producer & organizer of the event series „Vienna Dubwise“ and the „Dubstetten“ festival.",
     startsAt: "Fr. 22. July 2023 - 18 Uhr",
     slug: "danubian-dub",
     thumbnail: danubianDub,

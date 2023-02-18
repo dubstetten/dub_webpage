@@ -1,14 +1,14 @@
 html {
-    font: normal 16px sans-serif;
-    color: #555;
+  font: normal 16px sans-serif;
+  color: #555;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'dosis';
-    font-size: 20px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "dosis";
+  font-size: 20px;
 }
 
 /*-------------
@@ -17,100 +17,120 @@ body {
   #ceb6c5 #e0b2bb #fedcbc #f7d0b8 #b6c9cd 
 -------------*/
 @font-face {
-    font-family: 'own';
-    src: local('Pacifico Regular'), local('Pacifico-Regular'), url('/font/Aladin-Regular.ttf');
-    font-display: swap;
+  font-family: "own";
+  src: local("Pacifico Regular"), local("Pacifico-Regular"),
+    url("/font/Aladin-Regular.ttf");
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'dosis';
-    src: local('Pacifico Regular'), local('Pacifico-Regular'), url('/font/Dosis-VariableFont_wght.ttf');
-    font-display: swap;
+  font-family: "dosis";
+  src: local("Pacifico Regular"), local("Pacifico-Regular"),
+    url("/font/Dosis-VariableFont_wght.ttf");
+  font-display: swap;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font: normal 16px sans-serif;
-    color: #555;
-    background-color: #fedcbc;
-    letter-spacing: 1.5px;
+  font: normal 16px sans-serif;
+  color: #555;
+  background-color: #fedcbc;
+  letter-spacing: 1.5px;
 }
+
 nav {
-    list-style: none;
+  list-style: none;
 }
+
 h1,
 h2,
 h3,
 h4,
 h5 {
-    color: #9a031e;
-    font-family: 'own';
+  color: #9a031e;
+  font-family: "own";
 }
+
 h1 {
-    font-size: 4rem;
+  font-size: 4rem;
+  margin: 1rem 0 2rem 0;
 }
+
 h2 {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
+  margin: 0 0 2rem 0;
 }
+
 h3 {
-    font-size: 2rem;
+  font-size: 1.5rem;
+  margin: 0 0 1rem 0;
 }
+
 h4 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
+
 a {
-    text-decoration: none;
-    color: inherit;
-    cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 hr {
-    width: 150px;
-    height: 2px;
-    background-color: #2196f3;
-    border: 0;
-    margin-bottom: 80px;
+  width: 150px;
+  height: 2px;
+  background-color: #2196f3;
+  border: 0;
+  margin-bottom: 80px;
 }
 
 section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
 }
+
 p {
-    margin-bottom: 2rem;
-    padding: 0 20px;
-    text-align: justify;
+  margin-bottom: 2rem;
+  padding: 0 20px;
+  text-align: justify;
 }
+
 @media screen and (min-width: 768px) {
-    section {
-        padding-left: 25vw;
-        padding-right: 25vw;
-    }
-    p {
-        margin-bottom: 2rem;
-        padding: 0;
-        text-align: justify;
-    }
+  section {
+    padding-left: 25vw;
+    padding-right: 25vw;
+  }
+
+  p {
+    margin-bottom: 2rem;
+    padding: 0;
+    text-align: justify;
+  }
 }
+
 .bg-lila {
-    background-color: #ceb6c5;
+  background-color: #ceb6c5;
 }
+
 .bg-gelb {
-    background-color: #fedcbc;
+  background-color: #fedcbc;
 }
+
 .bg-rot {
-    background-color: #e0b2bb;
+  background-color: #e0b2bb;
 }
+
 .bg-blau {
-    background-color: #b6c9cd;
+  background-color: #b6c9cd;
 }
+
 .bg-orange {
-    background-color: #f7d0b8;
+  background-color: #f7d0b8;
 }

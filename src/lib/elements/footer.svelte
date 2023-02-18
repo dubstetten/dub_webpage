@@ -1,41 +1,43 @@
 <script>
-    import comeon from '$lib/assets/img/come_on.png';
+  import comeon from "$lib/assets/img/come_on.png";
 </script>
 
 <footer>
-    <ul>
-        <li><a href="impressum"> Impressum</a></li>
-        <li><a href="datenschutz"> Datenschutz</a></li>
-    </ul>
-    <a href="https://www.come-on.at/"><img src={comeon} alt="dubstetten home" id="logo" /></a>
+  <ul>
+    <li><a href="impressum"> Impressum</a></li>
+    <li><a href="datenschutz"> Datenschutz</a></li>
+  </ul>
+  <a href="https://www.come-on.at/"
+    ><img src={comeon} alt="dubstetten home" id="logo" /></a
+  >
 </footer>
 
 <style>
-    img {
-        width: 200px;
-    }
-    footer {
-        display: flex;
+  img {
+    width: 200px;
+  }
+  footer {
+    display: flex;
 
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        background-color: #0f4c5c;
-        padding: 1rem 1rem;
-        z-index: 100;
-    }
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #0f4c5c;
+    padding: 0rem 1rem;
+    z-index: 100;
+  }
 
-    ul {
-        display: flex;
-    }
-    li {
-        list-style-type: none;
-        margin: 0 0.5rem;
-    }
-    a {
-        color: rgb(255, 255, 255);
-        text-decoration: none;
+  ul {
+    display: flex;
+  }
+  li {
+    list-style-type: none;
+    margin: 0.4rem 0.5rem;
+  }
+  a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 
-        text-align: center;
-    }
+    text-align: center;
+  }
 </style>

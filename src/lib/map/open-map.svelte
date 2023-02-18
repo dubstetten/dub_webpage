@@ -18,3 +18,4 @@
     >Größere Karte anzeigen</a
   >
 </small>
+<br />

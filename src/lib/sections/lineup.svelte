@@ -22,6 +22,14 @@
 
 <style>
   .pic {
-    margin: 0 0 2rem 0;
+    margin: 0 0 3rem 0;
+  }
+  @media screen and (min-width: 480px) {
+    .pic {
+      display: flex;
+      border-radius: 1.5rem;
+      overflow: hidden;
+      box-shadow: rgb(0, 0, 0, 0.2) 0.5rem 0.5rem 1rem;
+    }
   }
 </style>

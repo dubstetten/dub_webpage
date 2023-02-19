@@ -39,7 +39,7 @@
     overflow: hidden;
     box-shadow: rgb(0, 0, 0, 0.2) 0.5rem 0.5rem 1rem;
     width: 100%;
-    border-radius: 2rem;
+    border-radius: 1.2rem;
     position: relative;
   }
   .content {

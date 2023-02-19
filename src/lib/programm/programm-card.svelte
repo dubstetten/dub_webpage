@@ -19,7 +19,7 @@
     width: 100%;
     max-width: 450px;
     min-height: 150px;
-    padding-bottom: 5rem;
+    padding: 0 0.8rem 5rem 0.8rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,6 +49,6 @@
     max-width: 75%;
     margin-bottom: -3.5rem;
     z-index: 2;
-    border-radius: 2rem;
+    border-radius: 1.2rem;
   }
 </style>

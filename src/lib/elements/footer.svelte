@@ -1,5 +1,5 @@
 <script>
-  import comeon from "$lib/assets/img/come_on.png";
+  import comeon from "$lib/assets/img/come_on.webp";
 </script>
 
 <footer>
@@ -14,7 +14,9 @@
 
 <style>
   img {
-    width: 200px;
+    width: 13rem;
+    height: auto;
+    border-radius: 0.2rem;
   }
   footer {
     display: flex;

@@ -24,6 +24,14 @@
   .pic {
     margin: 0 0 3rem 0;
   }
+  @media screen and (min-width: 480px) {
+    .pic {
+      display: flex;
+      border-radius: 1.5rem;
+      overflow: hidden;
+      box-shadow: rgb(0, 0, 0, 0.2) 0.5rem 0.5rem 1rem;
+    }
+  }
 
   .btn {
     font: 28px own;
@@ -32,6 +40,7 @@
     border-radius: 10rem;
     padding: 20px;
     margin: 2rem;
+    box-shadow: rgb(0, 0, 0, 0.2) 0.5rem 0.5rem 1rem;
   }
   .btn:hover {
     background-color: rgb(248, 193, 10);

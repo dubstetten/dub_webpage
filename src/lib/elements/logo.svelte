@@ -8,6 +8,7 @@
 
 <style>
   img {
-    width: 150px;
+    height: 3.5rem;
+    width: auto;
   }
 </style>

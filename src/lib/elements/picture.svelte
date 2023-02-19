@@ -37,7 +37,6 @@
     object-position: center;
     box-sizing: border-box;
     display: block;
-    border-radius: 2rem;
     margin: 0rem 0;
   }
 </style>

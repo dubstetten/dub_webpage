@@ -1,5 +1,5 @@
 <script>
-  import logo from "../assets/img/logo_sichel.png";
+  import logo from "$lib/assets/img/logo_sichel.svg";
 </script>
 
 <a href="/">
@@ -8,7 +8,7 @@
 
 <style>
   img {
-    height: 3.5rem;
+    height: 8rem;
     width: auto;
   }
 </style>

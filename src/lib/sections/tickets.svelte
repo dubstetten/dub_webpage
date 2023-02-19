@@ -11,7 +11,7 @@
   >
   <h2>Bald ist es soweit!</h2>
   <p>
-    Am Wochenende 21.7.-22.7.2023 wird Dorfstetten, ein kleines Dorf in
+    Am Wochenende 21. 7. - 22. 7. 2023 wird Dorfstetten, ein kleines Dorf in
     Niederösterreich, wieder zu Dubstetten transformiert! Ein wichtiges Festival
     für alle jene, die das Gute im Leben schätzen und genießen.
   </p>

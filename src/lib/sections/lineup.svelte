@@ -7,16 +7,18 @@
   <h1 class="title">Line-Up</h1>
   <p>
     Auf der Dub Stage erwartet euch der beste Sound mit internationalen und
-    regionalen Künstlern. Bei der Hofbühne erwarten euch lokale Bands, die du
-    vielleicht jetzt noch nicht kennst, aber kennen solltest.
+    regionalen Künstlern.
   </p>
   <div class="pic">
     <Picture src={fun} alt="Background Image" />
   </div>
   <p>
-    Das Programm untertags ist mit Workshops durchwachsen, diese sind für Groß
-    und Klein. Auch heuer gibt es wieder die legendäre Dub-licious Pizza und
-    Verköstigung im Hof.
+    Bei der Hofbühne erwarten euch lokale Bands, die du vielleicht jetzt noch
+    nicht kennst, aber kennen solltest.
+  </p>
+  <p>
+    Das Programm untertags ist mit Workshops durchwachsen, welche ein
+    unterhlatsames Programm für Groß und Klein bieten.
   </p>
 </section>
 

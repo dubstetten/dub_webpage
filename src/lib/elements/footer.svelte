@@ -20,8 +20,9 @@
   }
   footer {
     display: flex;
-
+    width: 100%;
     flex-direction: column;
+
     align-items: center;
     text-align: center;
     background-color: #0f4c5c;

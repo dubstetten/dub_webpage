@@ -11,13 +11,13 @@
 
 <section class="bg-gelb">
   <h1 class="title">Info</h1>
-  <h2>Das erwartet dich</h2>
-  <h3>Open Air Soundsystem Stage</h3>
+  <h2>Überblick</h2>
+  <h3>Freiluft Soundsystem Stage</h3>
   <p>
     Auf der Dub Stage erwartet euch der beste Sound vom Danubian Dub Soundsystem
     mit internationalen und regionalen Künstlern.
   </p>
-  <h3>Open Air Hof und Jam Bühne</h3>
+  <h3>Freiluft Hof und Jam Bühne</h3>
   <p>
     Auf der Hof Bühne werden Lokale Künstler auftreten mit anschlißender Jam
     möglichkeit.
@@ -27,11 +27,15 @@
   </div>
   <h3>Workshops</h3>
   <p>
-    Das Programm untertags ist mit Workshops durchwachsen, diese sind für Groß
-    und Klein.
+    Das Programm untertags ist mit Workshops durchwachsen, welche Groß und Klein
+    erfreuen, informieren und unterhalten werden.
   </p>
   <h3>Kleidertausch</h3>
-  <p>Nimm deine Kleidung mit und Tausch sie gegen andere Klamotten ein.</p>
+  <p>
+    Nimm deine Kleidung mit und Tausch sie gegen andere Klamotten ein.
+    Selbstverständlich kannst man auch einfach nur Stücke mitbringen oder mit
+    nach hause nehmen.
+  </p>
   <h3>Kinderprogramm</h3>
   <p>????</p>
   <h3>Soul Food</h3>
@@ -47,18 +51,23 @@
   <h2>Entspanne</h2>
   <ul>
     <li>
-      Erlebe eine erfrischende Dusche auf unserem Festival und kühlt euch für
-      weitere Abenteuer ab.
+      Erlebe eine erfrischende Dusche auf unserem Festival, und kühlt dich ab
+      für weitere Abenteuer.
     </li>
     <li>
-      Bitte erkundige dich beim Check-in, welches Campinggebiet zu deinen
-      Bedürfnissen passt.
+      Erkundige dich beim Check-in, welches Campinggebiet zu deinen Bedürfnissen
+      passt. Es gibt ruhigere und belebtere Spots, daher ist es gut sich gleich
+      auf einem Platz niederzulassen an dem man sich Wohlfühlt.
     </li>
-    <li>Es gibt einen Teich im Ort, den man zu Fuß erreichen kann.</li>
     <li>
-      Denk daran, dass es in der Region, wo das Event stattfindet, nur Empfang
-      für A1 Kunden gibt. Also lass den Stress zu Hause, erlaube deiner Seele zu
-      baumeln und gönn dir eine Auszeit vom Alltag.
+      Es gibt einen Teich zum Baden im Ort, diesen kann man zu Fuß in ca. 20
+      Minuten erreichen. Auf dem Weg dorthin, gibt es die Möglichkeit verköstigt
+      zu werden bei Wirtsleuten.
+    </li>
+    <li>
+      Denk bitte daran, dass es in der Region wo das Event stattfindet, nur
+      Empfang für A1 Kunden gibt. Also lass den Stress zu Hause, erlaube deiner
+      Seele zu baumeln und gönn dir bewusst eine Auszeit vom Alltag.
     </li>
   </ul>
   <div class="pic">
@@ -66,11 +75,18 @@
   </div>
   <h2>Respektiere die Natur</h2>
   <ul>
-    <li>Bitte trenne deinen Müll bei der Müllinsel.</li>
-
-    <li>Zigaretten gehören in die (T)Aschenbecher.</li>
     <li>
-      Sowohl Lagerfeuer als auch das Rauchen ist in Waldrandnähe ist untersagt!
+      Bitte trenne deinen Müll bei der Müllinsel, und hilf damit den
+      Veranstaltungsteam.
+    </li>
+
+    <li>
+      Zigaretten gehören in die (T)Aschenbecher. Beim Eintritt erhältst du
+      deinen eigenen Taschenaschenbecher, optional auch mit Umhängehalsband.
+    </li>
+    <li>
+      Leider ist sowohl Lagerfeuer als auch das Rauchen in Waldrandnähe
+      Behördlich untersagt! Achte bitte besonders bei Trockenheit darauf.
     </li>
   </ul>
   <div class="pic">
@@ -79,31 +95,26 @@
   <h2>Konsens</h2>
   <ul>
     <li>
-      Bedenke, dass am Festivalgelände ein landwirtschaftlicher Betrieb ansässig
-      ist, darum bitten wir dich, abgesperrte private Flächen zu respektieren.
-    </li>
-    <li>
       Jeder ist willkommen! Lade deine liebsten Freunde ein, um mit uns ein
       bezauberndes Wochenende gefüllt mit Musik, Spiel und Genuss zu verbringen.
     </li>
     <li>
-      Das Aufstellen von eigenen Musikanlagen am Campingplatz ist leider nicht
+      Bedenke, dass am Festivalgelände ein landwirtschaftlicher Betrieb ansässig
+      ist, darum bitten wir darum, abgesperrte private Flächen zu respektieren.
+    </li>
+    <li>
+      Denk daran dass Kinder oder ruhebedürftige Menschen schlafen könnten, also
+      verhalte dich Nachts und Morgens möglichst ruhig am Campingplatz. Deshalb
+      ist das Aufstellen und betreiben von eigenen Musikanlagen leider nicht
       erlaubt.
     </li>
     <li>
-      <b>Verzichte auf Fotos am Festivalgelände!</b>
+      <b>Verzichte bitte auf Fotos am Festivalgelände!</b>
       <br />
       Fotos sind immer eine schöne Erinnerung, aber bedenke bitte, dass es Menschen
       gibt, die sich nicht gerne in öffentlichen Netzwerken wiederfinden wollen.
       Wir bitten dich daher, Rücksicht darauf zu nehmen und die Zeit am Festival
       bestenfalls ohne Handy zu genießen.
-    </li>
-    <li>
-      Denk daran, dass Kinder schlafen könnten, also verhalte dich nachts
-      möglichst ruhig am Campingplatz.
-    </li>
-    <li>
-      Sowohl Lagerfeuer als auch das Rauchen ist in Waldrandnähe ist untersagt!
     </li>
     <li>
       <b>Hunde bitte an die Leine!</b>
@@ -121,8 +132,8 @@
 <section class="bg-blau">
   <h2>Organisation</h2>
   <p>
-    Das Dubstetten Festival wird von dem gemeinnützigen Verein Bele organisiert,
-    der Verein dient der Förderung und Bewusstseinsbildung für ein glückliches
+    Das Dubstetten Festival wird vom gemeinnützigen Verein BELE organisiert, der
+    Verein dient der Förderung und Bewusstseinsbildung für ein glückliches
     Leben. Wir freuen uns auf ein schönes Festival mit euch.
   </p>
 

@@ -73,7 +73,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2rem 0;
+    margin: 2rem 1rem;
     border-radius: 50%;
     overflow: hidden;
     max-width: 400px;

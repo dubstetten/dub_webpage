@@ -65,7 +65,7 @@
     margin-top: 0;
   }
   p {
-    text-align: center;
+    text-align: justify;
     font-size: 1.25rem;
     color: #222;
   }

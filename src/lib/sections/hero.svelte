@@ -1,6 +1,6 @@
 <script>
   import logo from "$lib/assets/img/logo_baumkreis.svg";
-  import hero2 from "$lib/assets/img/hero2.webp";
+  import hero2 from "$lib/assets/img/hero.webp";
 </script>
 
 <section id="hero">
@@ -49,8 +49,8 @@
   }
   .background-color {
     z-index: 1;
-    background-image: radial-gradient(#000000, #fedcbc, #010101);
-    opacity: 0.5;
+    background-image: radial-gradient(#000000, #806e5d, #010101);
+    opacity: 0.4;
   }
 
   .wrapper {

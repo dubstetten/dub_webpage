@@ -1,6 +1,7 @@
 <script>
   import OpenMap from "../map/open-map.svelte";
   import Picture from "../elements/picture.svelte";
+  import dubschild from "$lib/assets/img/dubschild.png?width=320;480;640;768&format=webp;avif;jpg";
   import schild from "$lib/assets/img/schild.jpg?width=320;480;640;768&format=webp;avif;jpg";
   import img2 from "$lib/assets/img/dub_2.jpg?width=320;480;640;768&format=webp;avif;jpg";
   import pizza from "$lib/assets/img/pizza.jpg?width=320;480;640;768&format=webp;avif;jpg";
@@ -11,6 +12,23 @@
 
 <section class="bg-gelb">
   <h1 class="title">Info</h1>
+  <h2>Anfahrt</h2>
+  <p>
+    Das Festival findet am <b>Wimbergeramt 22, Dorfstetten 4392</b> statt, die
+    Karte ist auf dieser Seite ganz unten zu finden. Leider ist die öffentliche
+    Anbindung bis nach Dorfstetten sehr begrenzt, aber es fahren regelmäßig
+    Busse bis Waldhausen im Strudengau. Bedenke bei der Anfahrt, dass Mobilfunk
+    und GPS in dieser Region nicht funktionieren.
+    <br />
+    <br />
+    Also lass den Stress zu Hause, erlaube deiner Seele zu baumeln und gönn dir bewusst
+    eine Auszeit vom Alltag.
+  </p>
+  <div class="pic">
+    <Picture src={dubschild} alt="dubhausen" />
+  </div>
+</section>
+<section class="bg-orange">
   <h2>Überblick</h2>
   <h3>Freiluft Soundsystem Stage</h3>
   <p>
@@ -19,25 +37,30 @@
   </p>
   <h3>Freiluft Hof und Jam Bühne</h3>
   <p>
-    Auf der Hof Bühne werden Lokale Künstler auftreten mit anschlißender Jam
-    möglichkeit.
+    Auf der Hofbühne werden lokale Künstler auftreten mit anschließender Jam
+    Möglichkeit.
   </p>
-  <div class="pic">
-    <Picture src={schild} alt="wegweiser" />
-  </div>
+
   <h3>Workshops</h3>
   <p>
     Das Programm untertags ist mit Workshops durchwachsen, welche Groß und Klein
     erfreuen, informieren und unterhalten werden.
   </p>
+  <div class="pic">
+    <Picture src={schild} alt="wegweiser" />
+  </div>
   <h3>Kleidertausch</h3>
   <p>
-    Nimm deine Kleidung mit und Tausch sie gegen andere Klamotten ein.
-    Selbstverständlich kannst man auch einfach nur Stücke mitbringen oder mit
-    nach hause nehmen.
+    Nimm deine Kleidung mit und tausche sie gegen andere Klamotten ein.
+    Selbstverständlich kann man auch einfach nur Stücke mitbringen oder mit nach
+    Hause nehmen.
   </p>
   <h3>Kinderprogramm</h3>
-  <p>????</p>
+  <p>
+    Auch an die Kleinsten unter uns ist gedacht. Am Samstag gibt es
+    Kinderschminken und einen Mitmachzirkus für Groß und Klein. Im Hof befindet
+    sich ein Spielplatz, und eine Kinderspielecke mit Mal- und Bastelsachen.
+  </p>
   <h3>Soul Food</h3>
   <p>
     Es gibt eine Küche mit Vegetarischen und Veganen Speisen, und auch heuer
@@ -47,32 +70,29 @@
     <Picture src={pizza} alt="holzofen pizza" />
   </div>
 </section>
-<section class="bg-orange">
+<section class="bg-gelb">
   <h2>Entspanne</h2>
   <ul>
     <li>
-      Erlebe eine erfrischende Dusche auf unserem Festival, und kühlt dich ab
-      für weitere Abenteuer.
+      Erlebe eine erfrischende Dusche am Festival und kühl dich ab für weitere
+      Abenteuer.
     </li>
     <li>
       Erkundige dich beim Check-in, welches Campinggebiet zu deinen Bedürfnissen
-      passt. Es gibt ruhigere und belebtere Spots, daher ist es gut sich gleich
-      auf einem Platz niederzulassen an dem man sich Wohlfühlt.
+      passt. Es gibt ruhigere und belebtere Spots, daher ist es gut, sich gleich
+      auf einem Platz niederzulassen, an dem man sich wohlfühlt.
     </li>
     <li>
       Es gibt einen Teich zum Baden im Ort, diesen kann man zu Fuß in ca. 20
-      Minuten erreichen. Auf dem Weg dorthin, gibt es die Möglichkeit verköstigt
+      Minuten erreichen. Auf dem Weg dorthin gibt es die Möglichkeit, verköstigt
       zu werden bei Wirtsleuten.
-    </li>
-    <li>
-      Denk bitte daran, dass es in der Region wo das Event stattfindet, nur
-      Empfang für A1 Kunden gibt. Also lass den Stress zu Hause, erlaube deiner
-      Seele zu baumeln und gönn dir bewusst eine Auszeit vom Alltag.
     </li>
   </ul>
   <div class="pic">
     <Picture src={img2} alt="natur" />
   </div>
+</section>
+<section class="bg-orange">
   <h2>Respektiere die Natur</h2>
   <ul>
     <li>
@@ -82,30 +102,34 @@
 
     <li>
       Zigaretten gehören in die (T)Aschenbecher. Beim Eintritt erhältst du
-      deinen eigenen Taschenaschenbecher, optional auch mit Umhängehalsband.
+      deinen eigenen Taschenaschenbecher, optional auch mit Halsband zum
+      Umhängen.
     </li>
     <li>
-      Leider ist sowohl Lagerfeuer als auch das Rauchen in Waldrandnähe
-      Behördlich untersagt! Achte bitte besonders bei Trockenheit darauf.
+      Leider ist sowohl Lagerfeuer als auch Rauchen in Waldrandnähe behördlich
+      untersagt! Achte bitte besonders bei Trockenheit darauf.
     </li>
   </ul>
   <div class="pic">
     <Picture src={nature} alt="respekt schild" />
   </div>
+</section>
+<section class="bg-gelb">
   <h2>Konsens</h2>
   <ul>
     <li>
-      Jeder ist willkommen! Lade deine liebsten Freunde ein, um mit uns ein
-      bezauberndes Wochenende gefüllt mit Musik, Spiel und Genuss zu verbringen.
+      <b> Jeder ist willkommen! </b>Lade deine liebsten Freunde ein, um mit uns
+      ein bezauberndes Wochenende gefüllt mit Musik, Spiel und Genuss zu
+      verbringen.
     </li>
     <li>
       Bedenke, dass am Festivalgelände ein landwirtschaftlicher Betrieb ansässig
-      ist, darum bitten wir darum, abgesperrte private Flächen zu respektieren.
+      ist, darum bitten wir dich, abgesperrte private Flächen zu respektieren.
     </li>
     <li>
-      Denk daran dass Kinder oder ruhebedürftige Menschen schlafen könnten, also
-      verhalte dich Nachts und Morgens möglichst ruhig am Campingplatz. Deshalb
-      ist das Aufstellen und betreiben von eigenen Musikanlagen leider nicht
+      Denk daran, dass Kinder oder ruhebedürftige Menschen schlafen könnten,
+      also verhalte dich nachts und morgens möglichst ruhig am Campingplatz. Das
+      Aufstellen und Betreiben von eigenen Musikanlagen ist leider nicht
       erlaubt.
     </li>
     <li>
@@ -148,10 +172,11 @@
 
 <style>
   .pic {
-    margin: 0 0 3rem 0;
+    margin: 0;
   }
   @media screen and (min-width: 480px) {
     .pic {
+      margin: 0 0 3rem 0;
       display: flex;
       border-radius: 1.5rem;
       overflow: hidden;

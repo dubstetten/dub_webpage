@@ -5,11 +5,11 @@
   let showMobileMenu = false;
 
   const navItems = [
-    { label: "Tickets", href: "/tickets" },
     { label: "Line-Up", href: "/lineup" },
-    { label: "Info", href: "/about" },
+    { label: "Tickets", href: "/tickets" },
+    { label: "Info", href: "/info" },
+    { label: "Gallery", href: "/gallery" },
     { label: "Contact", href: "/contact" },
-    // { label: "Gallery", href: "/gallery" },
   ];
 
   const handleMobileIconClick = () => (showMobileMenu = !showMobileMenu);

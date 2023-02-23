@@ -5,6 +5,4 @@
 
 <!-- Sections -->
 <Lineup />
-<section class="bg-blau">
-  <ProgrammList />
-</section>
+<ProgrammList />

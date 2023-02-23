@@ -6,19 +6,24 @@
 <section id="lineup">
   <h1 class="title">Line-Up</h1>
   <p>
-    Auf der Dub Stage erwartet euch der beste Sound mit internationalen und
-    regionalen Künstlern.
+    Wir haben für euch ein spannendes Programm mit internationalen und
+    regionalen Künstlern zusammengestellt. Auf der Dub Stage werdet ihr den
+    besten Sound erleben, der euch tief in die Welt des Dubs eintauchen lässt.
+    Also lasst euch von den Klängen mitreißen und tanzt bis zum Morgengrauen.
   </p>
   <div class="pic">
     <Picture src={fun} alt="Background Image" />
   </div>
   <p>
-    Bei der Hofbühne erwarten euch lokale Bands, die du vielleicht jetzt noch
-    nicht kennst, aber kennen solltest.
+    Auf der Hofbühne gibt es einiges zu entdecken. Hier habt ihr die Chance,
+    lokale Artists zu entdecken, von denen ihr vielleicht noch nie gehört habt,
+    aber unbedingt hören solltet.
   </p>
   <p>
-    Das Programm untertags ist mit Workshops durchwachsen, welche ein
-    unterhlatsames Programm für Groß und Klein bieten.
+    Untertags werden verschiedenen Workshops und Aktivitäten angeboten, diese
+    bieten für Groß- und Klein Unterhaltung. Hier habt ihr die Möglichkeit eurer
+    Kreativität freien Lauf zu lassen, Neues auszuprobieren oder euer Wissen zu
+    erweitern.
   </p>
 </section>
 

@@ -1,7 +1,7 @@
 <script>
   import OpenMap from "../map/open-map.svelte";
   import Picture from "../elements/picture.svelte";
-  import eichhorn from "$lib/assets/img/eichhorn_icon.png?width=320;480;640;768&format=webp;avif;jpg";
+  import eichhorn from "$lib/assets/img/eichhorn.png?width=320;480;640;768&format=webp;avif;jpg";
   import danubian from "$lib/assets/img/danubian_icon.jpeg?width=320;480;640;768&format=webp;avif;jpg";
   import head from "$lib/assets/img/kontakt.jpg?width=320;480;640;768&format=webp;avif;jpg";
 </script>
@@ -12,14 +12,19 @@
   <p>
     <b>
       Verein zur Förderung und Bewusstseinsbildung für ein glückliches Leben
-    </b>
+    </b><br />
+    Unsere Initiative zur Förderung von emotionaler Gesundheit soll dazu beitragen,
+    das Bewusstsein für die Bedeutung von mentaler und emotionaler Gesundheit zu
+    erhöhen. Wir möchten Menschen dabei unterstützen, ihre inneren Ressourcen zu
+    entdecken und ihre emotionale Gesundheit zu stärken, um ein erfülltes und glückliches
+    Leben führen zu können.
   </p>
   <p>
     Wimbergeramt 22
     <br />
     4392 Dorfstetten
   </p>
-  <div class="logos">
+  <div class="pic">
     <Picture src={head} alt="Eichhornhof" />
   </div>
 </section>
@@ -37,13 +42,15 @@
     Wimbergeramt 22
     <br />
     4392 Dorfstetten
+    <br />
+    <a href="https://eichhornhof.at/index.html"> Besuche unsere Hompage </a>
   </p>
 
-  <a class="logos" href="https://eichhornhof.at/index.html">
+  <div class="pic">
     <Picture src={eichhorn} alt="Eichhornhof" />
-  </a>
+  </div>
 </section>
-<section class="bg-lila">
+<section class="bg-orange">
   <h2>Danubian Dub <br />Soundsystem</h2>
   <p>
     DANUBIAN DUB SOUNDSYSTEM ist ein aufstrebendes Sound System aus Wien,
@@ -56,26 +63,32 @@
     bestimmte Art und Weise gebaut werden können, die zu einem völlig neuen
     Level an Klangqualität führen.
   </p>
-  <a
-    class="logos"
-    href="https://instagram.com/danubian_dub_soundsystem?igshid=YmMyMTA2M2Y="
-  >
-    <Picture src={danubian} alt="Danubian Dub" />
+  <a href="https://instagram.com/danubian_dub_soundsystem?igshid=YmMyMTA2M2Y=">
+    Folge uns auf Instagram
   </a>
+  <br />
+  <div class="pic">
+    <Picture src={danubian} alt="Danubian Dub" />
+  </div>
 </section>
 
 <style>
   p {
     text-align: center;
   }
-
-  .logos {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 2rem 1rem;
-    border-radius: 50%;
-    overflow: hidden;
-    max-width: 400px;
+  .pic {
+    margin: 0;
+  }
+  a {
+    text-decoration: underline;
+  }
+  @media screen and (min-width: 480px) {
+    .pic {
+      margin: 0 0 3rem 0;
+      display: flex;
+      border-radius: 1.5rem;
+      overflow: hidden;
+      box-shadow: rgb(0, 0, 0, 0.2) 0.5rem 0.5rem 1rem;
+    }
   }
 </style>

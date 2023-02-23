@@ -43,7 +43,7 @@
     font-family: "own";
     color: white;
     background: linear-gradient(-25deg, #0f4c5c 0%, #0f4c5c 100%);
-    border: solid 4px #b6c9cd;
+    border: solid 4px #fedcbc;
     border-top: none;
     padding: 1rem 2rem;
     max-width: 75%;

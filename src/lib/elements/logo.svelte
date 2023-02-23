@@ -2,7 +2,7 @@
   import logo from "$lib/assets/img/logo_sichel.svg";
 </script>
 
-<a href="/">
+<a href="lineup">
   <img src={logo} alt="dubstetten home" id="logo" />
 </a>
 

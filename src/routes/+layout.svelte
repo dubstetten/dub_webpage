@@ -8,7 +8,10 @@
 
 <svelte:head>
   <title>Dubstetten 23</title>
-  <meta name="description" content="The Dubest Festival in Austria" />
+  <meta
+    name="description"
+    content="Dub Event Österreich, Dub Festival Verein BELE, Eichhornhof, Danubian Dub Soundsystem"
+  />
 </svelte:head>
 
 <div id="page-wrapper">

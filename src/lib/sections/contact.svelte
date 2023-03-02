@@ -8,6 +8,17 @@
 
 <section class="bg-lila">
   <h1 class="title">Contact</h1>
+  <h2>Organisation</h2>
+  <p>
+    Das Dubstetten Festival ist ein Cooperatives Festival des Verein BELE's,
+    welcher erfolgreich mit dem Eichhornhof und dem Danubian Dub Soundsystem
+    zusammenarbeitet.
+  </p>
+  <p>
+    Falls du etwas zum Festival beitragen möchtest, kontaktiere den Verein BELE,
+    falls du dich als Dub-Artist einbringen möchtest, wende dich an das Danubian
+    Dub Soundsystem.
+  </p>
   <h2>Verein BELE</h2>
   <p>
     <b>
@@ -23,6 +34,8 @@
     Wimbergeramt 22
     <br />
     4392 Dorfstetten
+    <br />
+    <a href="mailto:verein-bele@posteo.net">verein-bele@posteo.net</a>
   </p>
   <div class="pic">
     <Picture src={head} alt="Eichhornhof" />

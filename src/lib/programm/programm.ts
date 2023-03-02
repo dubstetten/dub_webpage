@@ -31,7 +31,7 @@ export const programm: ProgrammItem[] = [
     description:
       "Sometimes Wicked - sometimes Bonny! Gegründet im Jahr 2015 - mit Studio Sitz in Silandro, Bozen.",
     startsAt: "***",
-    slug: "wicked-bonny",
+    // slug: "wicked-bonny.html",
     thumbnail: wickedAndBonny,
     longDesciption: `Sometimes Wicked - sometimes Bonny! Two words representing their own style of music! Founded in 2015 - based in a Studio in Silandro, Bolzano. Roots Music, Rebel Music, Experimental Music. Straightbase Dubs in a digital and rough analog way, Rub-a-Dub Style, endless delays, sirens and live effects, produced for a hectic tour plan on the weekends on Soundsystem Sessions and Festival Stages! Since 2015 upon the road, playing more than 400 Club Shows, Soundsystem Sessions and Festival Stages in all over Europe. Wicked and Bonny crew built a Soundsystem called Botheration Hifi in spring time 2015. They are hosting a different regular Sessions and Festivals in Bolzano and keep pushing the local underground music scene since almost 10 years now... After releasing 2 Albums, a few Singles, EP's and different Label Collaborations. Wicked and Bonny Records was founded in 2021 that is not only label. The goal of Wicked And Bonny Records is to create a Label to promote music, art and work as a group of friends, looking for constant innovative ways of promotion and bringing people together. So the team got bigger and so Graphic, video, communication and musical distribution experts working on one mission: let's bother the system with music and love.`,
   },
@@ -40,7 +40,7 @@ export const programm: ProgrammItem[] = [
     description:
       "Lion's Den ist ein Label, ein Soundsystem, ein Studio und eine Produktions- und Promotion-Kraft aus Berlin.",
     startsAt: "***",
-    slug: "lions-den",
+    slug: "lions-den.html",
     thumbnail: lionsDen,
     longDesciption: `LION'S DEN [Berlin // GER]
     www.lionsdensound.de
@@ -75,7 +75,7 @@ export const programm: ProgrammItem[] = [
     description:
       " Veteran Selector & heavyweight Roots & Dub Collector, der bereits seit Anfang der 90er aktiv die Wiener Klubszene mitgestaltet. Hat eine Vorliebe für extra schwere Rhythmen und treibende hypnotische Grooves, gepaart mit conscious lyrics & sweet and catchy harmonies.",
     startsAt: "***",
-    // slug: "peter",
+    // slug: "peter.html",
     thumbnail: peter,
     longDesciption: ` Veteran Selector & heavyweight Roots & Dub Collector, der bereits seit Anfang der 90er aktiv die Wiener Klubszene mitgestaltet.
     Hat eine Vorliebe für extra schwere Rhythmen und treibende hypnotische Grooves, gepaart mit conscious lyrics & sweet

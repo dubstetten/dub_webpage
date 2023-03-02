@@ -16,8 +16,9 @@
   </div>
   <p>
     Auf der Hofbühne gibt es einiges zu entdecken. Hier habt ihr die Chance,
-    lokale Artists zu entdecken, von denen ihr vielleicht noch nie gehört habt,
-    aber unbedingt hören solltet.
+    lokale Artists kennen zu lernen, von denen ihr vielleicht noch nie gehört
+    habt, aber unbedingt anhören solltet. Anschließend kann sich jeder selbst
+    musikalisch verwirklichen und gemeinsam jammen.
   </p>
   <p>
     Untertags werden verschiedenen Workshops und Aktivitäten angeboten, diese

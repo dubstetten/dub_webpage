@@ -17,21 +17,21 @@
   >
   <p>
     Am Wochenende 21. 7. - 22. 7. 2023 wird Dorfstetten, ein kleines Dorf in
-    Niederösterreich, wieder zu Dubstetten transformiert! Welches ein familiäres
-    und gemütliches Festival für alle jene ist, die das Gute im Leben schätzen
-    und genießen.
+    Niederösterreich, wieder zu Dubstetten transformiert. Ein familiäres und
+    gemütliches Festival für alle jene, die das Gute im Leben schätzen und
+    genießen.
   </p>
   <div class="pic">
     <Picture src={flyer} alt="flyer" />
   </div>
   <h3>
-    Wir beachten und befolgen das Niederösterreichische Jugendschutzgesetz.
+    Wir beachten und befolgen das niederösterreichische Jugendschutzgesetz.
   </h3>
   <p>
-    <b>Darüber Hinaus haben wir uns auf folgende eigene Regelung geeinigt:</b> Bis
-    zum vollendeten 16 Lebensjahr ist der Besuch des Festivals nur mit einer Erziehungsberechtigten
-    Person erlaubt. Vom vollendeten 16. bis zum vollendeten 18. Lebensjahr ist der
-    Besuch des Festivals nur mit einer Begleitperson erlaubt.
+    <b>Darüber hinaus haben wir uns auf folgende eigene Regelung geeinigt:</b> Bis
+    zum vollendeten 16. Lebensjahr ist der Besuch des Festivals nur mit einer erziehungsberechtigten
+    Person erlaubt. Bis zum vollendeten 18. Lebensjahr ist der Besuch des Festivals
+    nur mit einer Begleitperson erlaubt.
   </p>
 </section>
 

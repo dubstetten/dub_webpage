@@ -158,15 +158,15 @@
   <p>
     Das Dubstetten Festival wird vom gemeinnützigen Verein BELE organisiert, der
     Verein dient der Förderung und Bewusstseinsbildung für ein glückliches
-    Leben. Wir freuen uns auf ein schönes Festival mit euch.
+    Leben. Mehr Informationen dazu findest du unter Contact. Wir freuen uns auf
+    ein schönes Festival mit euch.
   </p>
-
-  <h3>
+  <h4>
     Du bist interessiert? Dann sicher dir ein <a
       href="https://www.eventbrite.com/e/dubstetten-tickets-509314502387"
       >Ticket</a
     > für das Dubstetten Festival am 21. & 22. Juli 2023.
-  </h3>
+  </h4>
   <OpenMap />
 </section>
 
